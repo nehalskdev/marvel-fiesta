@@ -25,7 +25,7 @@ const Footer = () => {
     <footer className="marvel-footer">
       <div className="footer-quote">{currentQuote}</div>
       <div className="footer-copyright">
-        © {new Date().getFullYear()} Marvel Fiesta | Refresh for new quote
+        © {new Date().getFullYear()} Nehal S - All rights reserved
       </div>
     </footer>
   );
