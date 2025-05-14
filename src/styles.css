@@ -1271,3 +1271,87 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Footer Styles */
+.marvel-footer {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-top: 3px solid #ed1d24;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-quote {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  min-height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.footer-quote.fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.footer-quote.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.quote-loading,
+.quote-error {
+  color: #aaa;
+  font-style: italic;
+}
+
+.quote-error {
+  color: #ff6b6b;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Animation for loading state */
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.quote-loading {
+  animation: pulse 1.5s infinite;
+}
+
+.marvel-footer {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 3px solid #ed1d24;
+}
+
+.footer-quote {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  min-height: 2rem;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #aaa;
+}
