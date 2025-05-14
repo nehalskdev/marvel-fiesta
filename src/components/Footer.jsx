@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Footer = () => {
   // 10 Famous MCU Quotes
@@ -15,7 +15,6 @@ const Footer = () => {
     "What is grief, if not love persevering? - Vision",
   ];
 
-  // Get a random quote only once when component mounts (on refresh)
   const [currentQuote] = useState(() => {
     const randomIndex = Math.floor(Math.random() * marvelQuotes.length);
     return marvelQuotes[randomIndex];
