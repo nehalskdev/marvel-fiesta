@@ -2,7 +2,10 @@ const Home = () => {
   return (
     <div className="home">
       <div className="banner">
-        <img src="/src/assets/Banner.jpg" alt="Marvel Characters" />
+        <img
+          src="https://w0.peakpx.com/wallpaper/318/17/HD-wallpaper-marvel-heroes.jpg"
+          alt="Marvel Characters"
+        />
       </div>
       <div className="about-section">
         <h2>Why Marvel and Sci-Fi Movies Are So Entertaining !</h2>
