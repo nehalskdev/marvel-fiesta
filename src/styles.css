@@ -1355,3 +1355,47 @@ body {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+/* Social Cards */
+.social-card {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color from parent */
+}
+
+.social-card h4 {
+  color: #fff; /* White text for headings */
+  margin-top: 0.5rem;
+}
+
+.social-card p {
+  color: #ccc; /* Light gray for descriptions */
+}
+
+/* Social Icons */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.youtube .social-icon {
+  fill: #ff0000; /* YouTube red */
+}
+
+.github .social-icon {
+  fill: #6cc644; /* GitHub green */
+}
+
+.instagram .social-icon {
+  fill: #e1306c; /* Instagram pink */
+}
+
+/* Hover Effects */
+.social-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.social-card:hover h4 {
+  color: #ed1d24; /* Marvel red on hover */
+}
