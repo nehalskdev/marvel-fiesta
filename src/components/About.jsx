@@ -32,7 +32,7 @@ const About = () => {
         <div className="qr-section">
           <div className="qr-card">
             <img
-              src="/src/assets/QR-code.jpeg"
+              src="/public/assets/QR-code.jpeg"
               alt="Developer QR Code"
               className="qr-image"
             />
